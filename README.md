@@ -1,13 +1,14 @@
 # User Notification Platform 
 
 Platform consists of following componants
+
 - User service 
 - Template service 
 - Notification service
 - Infrastructure
 - Notification generator
 
-##Summary
+## Summary
 
 Each of User service, Template service and Notification service is standalone scala microservice integrated with docker container for deployement. Detailed information about each service is mentioned in respective repository. 
 
@@ -59,7 +60,8 @@ or with `docker-compose logs -f notification-service` from Infrastructure direct
 - Mysql : Using persistent volume conf and authentication, database containers are without credentials for demo purpose currently
 - Automated API documentation  with swagger-ui integration
 - Each service will go seperate repository, with CI/CD integrated
-- Intergration of pact framework, for consumer driven contracts and integration testing
+- Integration of pact framework, for consumer driven contracts and integration testing
+- Better error message handling
 
 
 
