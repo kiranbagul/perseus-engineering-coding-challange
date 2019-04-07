@@ -26,7 +26,7 @@ Notification generator contains scipts for sending newsletter and welcome email 
 ## Installation
 
 ```
-> cd Infrastructure
+> cd infrastructure
 > build-all.sh 
 > docker images
 > docker-compose up
@@ -51,8 +51,8 @@ or with `docker-compose logs -f notification-service` from Infrastructure direct
 
 ### Assumptions
 
-- As per problem statement Users/templates collection is given, which is loaded when application is starting up. 
-- For sending welome notification if ID is not within 42-64 as per collection provided, then error is returned.  
+- Users/templates collection is given as per problem statement, same is loaded on application start up. 
+- For welome notification, user id should be between 42-64 as per collection provided, otherwise error is returned.  
 
 ### Improvements
 - Configuring service ports through properties yaml/configuration management.
