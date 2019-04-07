@@ -229,4 +229,5 @@ node_modules/
 **/.idea
 *.iml
 *.db
-**/project
+target/
+
