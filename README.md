@@ -27,7 +27,7 @@ Notification generator contains scipts for sending newsletter and welcome email 
 
 ```
 > cd infrastructure
-> build-all.sh 
+> ./build-all.sh 
 > docker images
 > docker-compose up
 ```
