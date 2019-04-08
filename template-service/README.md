@@ -1,5 +1,14 @@
 # Template service
 
+Technologies/frameworks Used
+- Scala
+- Akka HTTP
+- Slick
+- MySql
+- H2 in memory DB (for testing)
+- Scalatest
+- Docker
+
 
 ### API
 
@@ -26,6 +35,8 @@ Response
   "body": "Hello dear {{user.salutation}} {{user.name}},this are our latest news...In case you don't want to receive any further newsletters in the future please unsubscribe here:https://domain-of-product.de/unsubscribe-newsletter/{{user.identifier}}Best Regards,Your Customer Support Team"
 }
 ```
+
+* `GET /health` to monitor application status
 
 
 ## How to run

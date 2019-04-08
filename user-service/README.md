@@ -1,5 +1,13 @@
 # User service
 
+Technologies/frameworks Used
+- Scala
+- Akka HTTP
+- Slick
+- MySql
+- H2 in memory DB (for testing)
+- Scalatest
+- Docker
 
 ### API
 
@@ -41,6 +49,8 @@ Response
     }
   ]
   ```
+
+* `GET /health` to monitor application status
 
 ## How to run
 
